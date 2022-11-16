@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="135f12cf-563e-4df7-915c-ee7c07e3de9f" name="MariaCrm">
+        <fileTransfer accessType="SFTP" host="87.249.44.22" port="22" sshConfigId="e05bb808-5cd8-4637-a884-4024e3a2007c" sshConfig="root@87.249.44.22:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c8ed821d-0ef2-430c-945e-e3401d5c4ef1" name="MariaLocal" url="http://mariacrm.local">
+        <fileTransfer rootFolder="/home/www-root/mariacrm" accessType="SFTP" host="127.0.0.1" port="3022" sshConfigId="f72df60b-00d1-4394-82d8-ee1801d76134" sshConfig="dimatok@127.0.0.1:3022 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
